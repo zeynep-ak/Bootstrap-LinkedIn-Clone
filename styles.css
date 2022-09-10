@@ -1,0 +1,94 @@
+.navbar-text {
+    font-size: 12px;
+}
+
+body {
+    background-color: rgba(250, 235, 215, 0.448);
+}
+
+.save-icon {
+    display: inline;
+    margin-right: 2px;
+}
+
+.start-a-post {
+    border: 1px solid rgba(128, 128, 128, 0.486);
+    border-radius: 5px;
+}
+
+.post-area {
+    background-color: white;
+}
+
+.post-p {
+    display: inline;
+    margin-right: 10px;
+    font-display: bolder;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.post-div {
+    display: inline;
+    margin-right: 8px;
+}
+
+.posts {
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.486);
+    border-radius: 5px;
+}
+
+.post-img {
+    display: inline;
+}
+
+.post-text {
+    font-size: 13px;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+.post-reaction {
+    display: inline;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+.add-feed {
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.486);
+    border-radius: 5px;
+}
+
+.sugg-h6 {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.sugg-p {
+    font-size: 13px;
+    opacity: 0.7;
+    margin-top: 0;
+}
+
+.sugg-button {
+    text-align: center;
+    opacity: 0.9;
+    width: 100px;
+}
+
+.card-body a {
+    font-size: 12px;
+    display: inline-block;
+}
+.card-body svg {
+    display: inline-block;
+}
+.list-inline-item a {
+font-size: 12px;
+}

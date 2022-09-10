@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Linkedin</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-white">
+
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+          data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+          <path
+            d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z">
+          </path>
+        </svg></a>
+
+      <div>
+        <button type="button" class="btn"
+          style="background-color: rgba(0, 195, 255, 0.080); width: 250px; text-align: left;">
+          <svg style="display: inline; margin-right:10px;" aria-label="Search" class="_ab6-" color="#8e8e8e"
+            fill="#8e8e8e" height="16" role="img" viewBox="0 0 24 24" width="16">
+            <path d="M19 10.5A8.5 8.5 0 1110.5 2a8.5 8.5 0 018.5 8.5z" fill="none" stroke="currentColor"
+              stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+            <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              x1="16.511" x2="22" y1="16.511" y2="22"></line>
+          </svg>
+          <p style="display: inline;">Search</p>
+        </button>
+      </div>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+              fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path d="M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7 5 3.18V2h3v5.09z"></path>
+            </svg><span class="navbar-text"><br>Home</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+              data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24"
+              focusable="false">
+              <path
+                d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z">
+              </path>
+            </svg><span class="navbar-text"><br>My Network</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+              data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24"
+              focusable="false">
+              <path
+                d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z">
+              </path>
+            </svg><span class="navbar-text"><br>Jobs</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+              fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path
+                d="M16 4H8a7 7 0 000 14h4v4l8.16-5.39A6.78 6.78 0 0023 11a7 7 0 00-7-7zm-8 8.25A1.25 1.25 0 119.25 11 1.25 1.25 0 018 12.25zm4 0A1.25 1.25 0 1113.25 11 1.25 1.25 0 0112 12.25zm4 0A1.25 1.25 0 1117.25 11 1.25 1.25 0 0116 12.25z">
+              </path>
+            </svg><span class="navbar-text"><br>Messaging</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+              fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+              <path
+                d="M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z">
+              </path>
+            </svg><span class="navbar-text"><br>Notifications</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><img
+              src="https://i.picsum.photos/id/1003/1181/1772.jpg?hmac=oN9fHMXiqe9Zq2RM6XT-RVZkojgPnECWwyEF1RvvTZk"
+              alt="" width="25px" height="25px" class="rounded-circle"><span class="navbar-text"><br>Me</span></a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="row justify-content-center">
+
+      <div class="col-2">
+
+        <div class="card mt-2">
+
+          <img src="https://i.picsum.photos/id/1003/1181/1772.jpg?hmac=oN9fHMXiqe9Zq2RM6XT-RVZkojgPnECWwyEF1RvvTZk"
+            class="rounded-circle ms-auto me-auto mt-2" height="90px" width="90px" alt="...">
+
+          <div class="card-body border-bottom">
+            <h6 class="card-title mb-0 text-center">Zeynep Akkaya</h6>
+            <p class="card-text navbar-text mt-0 text-center">Student at Üsküdar University</p>
+          </div>
+
+          <div class="card-body border-bottom">
+
+            <span>
+              <p class="card-text navbar-text text-start mb-0">Connections</p>
+              <p class="card-text navbar-text text-start mt-0"><strong>Grow your network</strong>
+
+                <svg class="float-end" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16"
+                  fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                  <path
+                    d="M9 4a3 3 0 11-3-3 3 3 0 013 3zM6.75 8h-1.5A2.25 2.25 0 003 10.25V15h6v-4.75A2.25 2.25 0 006.75 8zM13 8V6h-1v2h-2v1h2v2h1V9h2V8z">
+                  </path>
+                </svg>
+
+              </p>
+            </span>
+          </div>
+
+          <div class="card-body">
+            <svg class="save-icon float-start mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+              data-supported-dps="16x16" fill="currentColor" width="16" height="16" focusable="false">
+              <path d="M12 1H4a1 1 0 00-1 1v13.64l5-3.36 5 3.36V2a1 1 0 00-1-1z"></path>
+            </svg>
+            <p class="navbar-text save-icon">My items</p>
+          </div>
+        </div>
+
+        <div class="card mt-2">
+          <div class="card-body">
+            <ul class="list-group list-group-flush border-bottom">
+              <li class="list-group-item border-0"><a class="text-decoration-none" href="">Groups</a></li>
+              <li class="list-group-item border-0 float-start"><a class="text-decoration-none" href="">Events</a><svg class="float-end" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                <path d="M14 9H9v5H7V9H2V7h5V2h2v5h5z"></path>
+              </svg></li>
+              <li class="list-group-item border-0 float-start"><a class="text-decoration-none" href="">Followed Hashtags</a></li>
+            </ul>
+            <p style="font-size: 13px; text-align:center; opacity:0.7;">Discover More</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-5 mt-2">
+
+        <div class="post-area mb-2 start-a-post">
+          <img class="mt-2 ms-3 rounded-circle inline"
+            src="https://i.picsum.photos/id/1003/1181/1772.jpg?hmac=oN9fHMXiqe9Zq2RM6XT-RVZkojgPnECWwyEF1RvvTZk"
+            width="50" height="50" alt="">
+
+          <form class="mt-2 me-2 float-end w-75" role="search">
+            <input class="form-control rounded-5" type="search" placeholder="Start a post" aria-label="Search">
+          </form>
+
+          <div class="ms-2 me-2 mt-2">
+
+            <div class="post-div">
+              <p class="post-p">
+                <svg class="inline" style="color: #378fe9;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                  data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24"
+                  focusable="false">
+                  <path
+                    d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z">
+                  </path>
+                </svg>Photo
+              </p>
+            </div>
+
+            <div class="post-div">
+              <p class="post-p">
+                <svg style="color: #5f9b41;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                  data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24"
+                  focusable="false">
+                  <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z"></path>
+                </svg>Video
+              </p>
+            </div>
+
+            <div class="post-div">
+              <p class="post-p">
+                <svg style="color: #c37d16;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                  data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24"
+                  focusable="false">
+                  <path
+                    d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z">
+                  </path>
+                </svg>Event
+              </p>
+            </div>
+
+            <div class="post-div">
+              <p class="post-p">
+                <svg style="color: #e16745;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                  data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24"
+                  focusable="false">
+                  <path d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z"></path>
+                </svg>Write Article
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr class="mt-4 mb-4">
+
+        <div class="posts mt-2">
+
+          <div>
+            <img src="/logo.png" class="rounded-circle ms-3 mt-3 post-img float-start" width="50px" height="50px"
+              alt="">
+
+            <p><span class="post-text fw-bold">Patika.dev</span><br><span class="post-text fw-light">47,668
+                followers</span><br><span class="post-text fw-light">15h</span> . <svg class="inline"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor"
+                class="mercado-match" width="16" height="16" focusable="false">
+                <path
+                  d="M8 1a7 7 0 107 7 7 7 0 00-7-7zM3 8a5 5 0 011-3l.55.55A1.5 1.5 0 015 6.62v1.07a.75.75 0 00.22.53l.56.56a.75.75 0 00.53.22H7v.69a.75.75 0 00.22.53l.56.56a.75.75 0 01.22.53V13a5 5 0 01-5-5zm6.24 4.83l2-2.46a.75.75 0 00.09-.8l-.58-1.16A.76.76 0 0010 8H7v-.19a.51.51 0 01.28-.45l.38-.19a.74.74 0 01.68 0L9 7.5l.38-.7a1 1 0 00.12-.48v-.85a.78.78 0 01.21-.53l1.07-1.09a5 5 0 01-1.54 9z">
+                </path>
+              </svg></p>
+
+            <p class="mt-1 fs-6"><a class="text-decoration-none" href="">Solid Electron Control Technologies Corp.</a>
+              iş birliği ile Angular Practicum başlıyor!🎉</p>
+
+            <p class="float-end text-secondary small-text">...see more</p>
+
+            <img src="/patika.jfif" class="w-100" alt="">
+
+            <img
+              class="post-reaction reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--0 reactions-icon__consumption--small data-test-reactions-icon-type-LIKE data-test-reactions-icon-theme-light"
+              src="https://static-exp1.licdn.com/sc/h/8ekq8gho1ruaf8i7f86vd1ftt" alt="like"
+              data-test-reactions-icon-type="LIKE" data-test-reactions-icon-theme="light">
+            <img
+              class="post-reaction reactions-icon social-detail-social-counts__count-icon social-detail-social-counts__count-icon--1 reactions-icon__consumption--small reactions-icon--stacked data-test-reactions-icon-type-APPRECIATION data-test-reactions-icon-theme-light"
+              src="https://static-exp1.licdn.com/sc/h/3wqhxqtk2l554o70ur3kessf1" alt="support"
+              data-test-reactions-icon-type="APPRECIATION" data-test-reactions-icon-theme="light">
+            <p class="post-reaction">16</p>
+
+            <p class="border-bottom"></p>
+
+            <div class="post-div me-3">
+              <p class="post-p">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                  fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                  <path
+                    d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z">
+                  </path>
+                </svg>
+                Like
+              </p>
+            </div>
+            <div class="post-div me-3">
+              <p class="post-p">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                  fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                  <path
+                    d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z">
+                  </path>
+                </svg>
+                Comment
+              </p>
+            </div>
+            <div class="post-div me-3">
+              <p class="post-p">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                  fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                  <path
+                    d="M23 12l-4.61 7H16l4-6H8a3.92 3.92 0 00-4 3.84V17a4 4 0 00.19 1.24L5.12 21H3l-.73-2.22A6.4 6.4 0 012 16.94 6 6 0 018 11h12l-4-6h2.39z">
+                  </path>
+                </svg>
+                Share
+              </p>
+            </div>
+            <div class="post-div me-3">
+              <p class="post-p">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                  fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                  <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+                </svg>
+                Send
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3 mt-2">
+
+        <div class="add-feed">
+          <h6 class="float-start mt-2 ms-2">Add to your feed</h6>
+          <svg class="float-end mt-2 me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+            data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16"
+            focusable="false">
+            <path
+              d="M12 2H4a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2zm-3 8v2H7.5A1.5 1.5 0 016 10.5a1.56 1.56 0 01.1-.5l1.08-3h2.13l-1.09 3zm0-3.75A1.25 1.25 0 1110.25 5 1.25 1.25 0 019 6.25z">
+            </path>
+          </svg>
+
+          <br><br>
+
+          <div class="suggestions">
+            <img src="https://i.picsum.photos/id/1022/6000/3376.jpg?hmac=FBA9Qbec8NfDlxj8xLhV9k3DQEKEc-3zxkQM-hmfcy0"
+              alt="" width="50px" height="50px" class="rounded-circle float-start ms-1 me-1">
+            <h6 class="sugg-h6">Young Career CV Designs</h6>
+            <p class="sugg-p">Company . Human Resources
+              <button type="button" class="btn btn-outline-dark rounded-5 btn-sm sugg-button ms-5">+ Follow</button>
+            </p>
+          </div>
+
+          <div class="suggestions">
+            <img src="https://i.picsum.photos/id/1027/2848/4272.jpg?hmac=EAR-f6uEqI1iZJjB6-NzoZTnmaX0oI0th3z8Y78UpKM"
+              alt="" width="50px" height="50px" class="rounded-circle float-start ms-1 me-1">
+            <h6 class="sugg-h6">Elif Yılmaz</h6>
+            <p class="sugg-p">Founder & HR Business Partner
+              <button type="button" class="btn btn-outline-dark rounded-5 btn-sm sugg-button ms-5">+ Follow</button>
+            </p>
+          </div>
+
+          <div class="suggestions">
+            <img src="https://i.picsum.photos/id/364/5184/3024.jpg?hmac=MjWX5eu2DqDxLQ4Zsl4zfRB-dewzsgE2saQsqSUfwag"
+              alt="" width="50px" height="50px" class="rounded-circle float-start ms-1 me-1">
+            <h6 class="sugg-h6">Baykar Technologies</h6>
+            <p class="sugg-p">Defense and Space Manufacturing
+              <button type="button" class="btn btn-outline-dark rounded-5 btn-sm sugg-button ms-5">+ Follow</button>
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <img src="https://media.licdn.com/media/AAYQAgTPAAgAAQAAAAAAADVuOvKzTF-3RD6j-qFPqhubBQ.png" class="w-100 mt-2 rounded-4" alt="">
+        </div>
+
+        <div>
+
+          <ul class="list-inline text-center">
+            <li class="list-inline-item"><a class="text-xs-center text-decoration-none text-secondary small" target="_blank" href="#">About</a></li>
+            <li class="list-inline-item"><a class="text-xs-center text-decoration-none text-secondary small" target="_blank" href="#">Accessibility</a></li>
+            <li class="list-inline-item"><a class="text-xs-center text-decoration-none text-secondary small" target="_blank" href="#">Help Center</a></li>
+            <li class="list-inline-item"><a class="text-xs-center text-decoration-none text-secondary small" target="_blank" href="#">Privacy & Terms</a><svg style="opacity: 0.7;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+              <path d="M1 5l7 4.61L15 5v2.39L8 12 1 7.39z"></path>
+            </svg></li>
+            <li class="list-inline-item"><a class="text-xs-center text-decoration-none text-secondary small" target="_blank" href="#">Ad Choices</a></li>
+            <li class="list-inline-item"><a class="text-xs-center text-decoration-none text-secondary small" target="_blank" href="#">Advertising</a></li>
+            <li class="list-inline-item"><a class="text-xs-center text-decoration-none text-secondary small" target="_blank" href="#">Business Services</a><svg style="opacity: 0.7;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+              <path d="M1 5l7 4.61L15 5v2.39L8 12 1 7.39z"></path>
+            </svg></li>
+            <li class="list-inline-item"><a class="text-xs-center text-decoration-none text-secondary small" target="_blank" href="#">Get the LinkedIn App</a></li>
+            <li class="list-inline-item"><a class="text-xs-center text-decoration-none text-secondary small" target="_blank" href="#">More</a></li>
+         </ul>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
